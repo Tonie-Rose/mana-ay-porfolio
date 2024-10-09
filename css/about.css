@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(214, 191, 191);
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header {
+    word-spacing: 20px;
+    width: 100%;
+    background-color: hsl(0, 19%, 49%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: flex;
+    z-index: 100px;
+}
+.nav a {
+    margin: 10px;
+    border-style: ridge;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif';
+}
+.nav a::before{
+    content: "";
+    position: relative;
+    transition: .3s;
+}
+.nav a:hover:before{
+    width: 100%;
+}
+.page1 {
+    background-image: url(../img/gif6.gif);
+    margin: 20px;
+    border-radius: 150px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+.imgabt {
+    margin-top: 100px;
+    margin-left: 25px;
+    height: 500px;
+    width: 390px;
+    position: absolute;
+    border-radius: 200px;
+    border-style: solid;
+}
+.about {
+    text-align: center;
+    color: #443333;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 280px;
+    margin: 0 170px 0px 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.sections {
+    background-color: #ab8e8e;
+    position: absolute;
+    color: #f7ecec;
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 10px 9px 50px 20px;
+    border-radius: 40px;
+    border-style: solid;
+    font-style: italic;
+}
+.food {
+    background-color: #ab8e8e;
+    margin-left: 360px;
+    padding: 10px 40px 50px 30px;
+    position: absolute;
+    text-align: justify;
+    font-size: 30px;
+    border-radius: 30px;
+    border-style: solid;
+    color: #f7ecec;
+    font-style: italic;
+}
+.Fr {
+    background-color: #ab8e8e;
+    margin-left: 640px;
+    padding: 10px 20px 50px 30px;
+    position: absolute;
+    text-align: justify;
+    font-size: 30px;
+    border-radius: 30px;
+    border-style: solid;
+    color: #f7ecec;
+    font-style: italic;
+}
+.hays {
+    background-color: #ab8e8e;
+    margin-left: 950px;
+    padding: 10px 20px 15px 30px;
+    position: absolute;
+    text-align: justify;
+    font-size: 30px;
+    border-radius: 30px;
+    border-style: solid;
+    color: #f7ecec;
+    font-style: italic;
+}
